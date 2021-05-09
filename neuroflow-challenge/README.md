@@ -3,6 +3,8 @@
 ### Running the code:
 I am an avid user of conda environments, so I have used one here in creating the environment for this task. Included in this repository is a file called **neuroflow_challenge.yaml**. Running **conda env create --file neuroflow_challenge.yaml** in your terminal should download all dependencies and packages used in this solution. I also wrote this solution on Pop! OS, my Linux distro of choice. If there are any issues with running the code, please let me know and I can think of another solution. I greatly appreciate this opportunity.
 
+Running **main.py** will prompt you to enter a **user_id**, which is given by the dataset. An example of one for testing is 3788.
+
 ### Documentation: 
 Each function has specific workings in DocString format. Do **help()** to get more information.
 
