@@ -9,11 +9,14 @@ user_ids = ids_list(csv)
 
 flag = False
 while flag != True:
-    id = int(input("Patient Id: "))
-    if id not in user_ids:
+    try:
+        id = int(input("Patient Id: "))
+        if id not in user_ids:
+            print("User Id does not exist. Try again.")
+        else:
+            flag = True
+    except:
         print("User Id does not exist. Try again.")
-    else:
-        flag = True
 
 date_created = date_user_created(csv, id)
 
